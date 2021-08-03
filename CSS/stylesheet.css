@@ -4,10 +4,10 @@
 }
 
 #welArea{
-    margin: 0px;
-    background: url('../img/testImgBacke.jpg') no-repeat center fixed;
+    margin-top: -10px;
+    margi
+    background: url('../img/testImgBacke.jpg') center fixed;
     background-size: cover;
-    width: 100%;
     height: 100vh;
 }
 
@@ -16,5 +16,9 @@
     margin: auto;
     display: grid;
     grid-template-areas: "men1 men2 men3 men4 men5 men6";
-    grid-template-columns: 18% 18% 18% 18% 18% 18%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+}
+
+#navigationMenu li{
+    margin: auto;
 }
